@@ -1,0 +1,51 @@
+# ==========================================
+# Operating Systemg
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Ehthumbs.db
+desktop.ini
+
+# Linux
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ==========================================
+# Text Editors & IDEs
+# ==========================================
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Obsidian (If you use it, ignores local workspace layouts but keeps your notes)
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/graph.json
+
+# Vim
+.*.swp
+.*.swo
+
+# ==========================================
+# Optional: Static Site Generators / Previews
+# ==========================================
+# If you use tools like Jekyll, Hugo, or MkDocs to preview your Markdown
+_site/
+public/
+site/
+.jekyll-cache/
+.sass-cache/
