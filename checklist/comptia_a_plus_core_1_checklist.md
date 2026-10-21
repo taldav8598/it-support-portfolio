@@ -1,0 +1,115 @@
+# CompTIA A+ Core 1 (220-1201) V15 Exam Objectives Checklist
+
+## 1.0 Mobile Devices (13%)
+- [ ] **1.1 Given a scenario, monitor mobile device hardware and use appropriate replacement techniques.**
+  - [ ] Battery
+  - [ ] Keyboard/keys
+  - [ ] Random-access memory (RAM)
+  - [ ] Hard disk drive (HDD)/solid-state drive (SSD)
+  - [ ] Wireless cards
+  - [ ] Physical privacy and security components (Biometrics, Near-field scanner features)
+  - [ ] Wi-Fi antenna connector/placement
+  - [ ] Camera/webcam
+  - [ ] Microphone
+- [ ] **1.2 Compare and contrast accessories and connectivity options for mobile devices.**
+  - [ ] Connection methods (USB/USB-C/microUSB/miniUSB, Lightning, NFC, Bluetooth, Tethering/hotspot)
+  - [ ] Accessories (Stylus, Headsets, Speakers, Webcam)
+  - [ ] Docking station / Port replicator
+  - [ ] Trackpad/drawing pad/track points
+- [ ] **1.3 Given a scenario, configure basic mobile device network connectivity and provide application support.**
+  - [ ] Wireless/cellular data network (3G/4G/5G, Hotspot, Wi-Fi, SIM/eSIM)
+  - [ ] Bluetooth (Enable, pairing, finding device, PIN code entry, testing connectivity)
+  - [ ] Location services (GPS services, Cellular location services)
+  - [ ] Mobile device management (MDM) (Corporate vs. BYOD configurations, Policy enforcement, Corporate apps)
+  - [ ] Mobile device synchronization (Data caps awareness, Calendar, Contacts, Business apps: Mail, Cloud storage)
+
+## 2.0 Networking (23%)
+- [ ] **2.1 Compare and contrast Transmission Control Protocol (TCP) and User Datagram Protocol (UDP) ports, protocols, and their purposes.**
+  - [ ] Ports: 20-21 (FTP), 22 (SSH), 23 (Telnet), 25 (SMTP), 53 (DNS), 67/68 (DHCP), 80 (HTTP), 110 (POP3), 143 (IMAP), 137-139 (NetBIOS/NetBT), 389 (LDAP), 443 (HTTPS), 445 (SMB/CIFS), 3389 (RDP)
+  - [ ] TCP vs. UDP characteristics
+- [ ] **2.2 Explain wireless networking technologies.**
+  - [ ] Frequencies (2.4GHz, 5GHz, 6GHz)
+  - [ ] Channels (Regulations, width selection, frequencies, bands)
+  - [ ] Bluetooth, 802.11 standards, NFC, RFID
+- [ ] **2.3 Summarize services provided by networked hosts.**
+  - [ ] Server roles (DNS, DHCP, Fileshare, Print, Mail, Syslog, Web, AAA, Database, NTP)
+  - [ ] Internet appliances (Spam gateways, UTM, Load balancers, Proxy servers)
+  - [ ] Legacy/embedded systems (SCADA)
+  - [ ] Internet of Things (IoT) devices
+- [ ] **2.4 Explain common network configuration concepts.**
+  - [ ] DNS records (A, AAAA, CNAME, MX, TXT: DKIM, SPF, DMARC)
+  - [ ] DHCP (Leases, Reservations, Scope, Exclusions)
+  - [ ] Virtual LAN (VLAN)
+  - [ ] Virtual private network (VPN)
+- [ ] **2.5 Compare and contrast common networking hardware devices.**
+  - [ ] Routers, Switches (Managed/Unmanaged), Access points, Patch panels, Firewalls
+  - [ ] Power over Ethernet (PoE) (Injectors, Switch, PoE standards)
+  - [ ] Modems (Cable, DSL), Optical network terminal (ONT)
+  - [ ] Network interface card (NIC) & Physical MAC address
+- [ ] **2.6 Given a scenario, configure basic wired/wireless small office/home office (SOHO) networks.**
+  - [ ] IP addressing (IPv4 Private vs. Public, IPv6, APIPA, Static vs. Dynamic, Subnet mask, Gateway)
+- [ ] **2.7 Compare and contrast internet connection types, network types, and their characteristics.**
+  - [ ] Connection types (Satellite, Fiber, Cable, DSL, Cellular, WISP)
+  - [ ] Network types (LAN, WAN, PAN, MAN, SAN, WLAN)
+- [ ] **2.8 Explain networking tools and their purposes.**
+  - [ ] Crimper, Cable stripper, Wi-Fi analyzer, Toner probe, Punchdown tool, Cable tester, Loopback plug, Network tap
+
+## 3.0 Hardware (25%)
+- [ ] **3.1 Compare and contrast display components and attributes.**
+  - [ ] Display Types (LCD: IPS, TN, VA; OLED; Mini-LED)
+  - [ ] Touch screen/digitizer, Inverter
+  - [ ] Attributes (Pixel density, Refresh rates, Screen resolution, Color gamut)
+- [ ] **3.2 Summarize basic cable types and their connectors, features, and purposes.**
+  - [ ] Network cables (Copper: Categories, T568A/T568B; Coaxial; Shielded/Unshielded twisted pair; Direct burial; Plenum-rated; Optical: Single-mode, Multimode)
+  - [ ] Peripheral cables (USB 2.0, USB 3.0, Serial, Thunderbolt)
+  - [ ] Video cables (HDMI, DisplayPort, DVI, VGA, USB-C)
+  - [ ] Hard drive cables (SATA, eSATA) & Adapters
+  - [ ] Connector types (RJ11, RJ45, F-type, ST, SC, LC, Punchdown block, Micro/MiniUSB, USB-C, Molex, Lightning, DB9)
+- [ ] **3.3 Compare and contrast RAM characteristics.**
+  - [ ] Form factors (SODIMM, DIMM)
+  - [ ] DDR iterations, ECC vs. Non-ECC RAM, Channel configurations
+- [ ] **3.4 Compare and contrast storage devices.**
+  - [ ] Hard drives (Spindle speeds, Form factors: 2.5-inch, 3.5-inch)
+  - [ ] Solid-state drives (Interfaces: NVMe, SATA, PCIe, SAS; Form factors: M.2, mSATA)
+  - [ ] Drive configurations (RAID 0, 1, 5, 6, 10)
+  - [ ] Removable storage (Flash drives, Memory cards) & Optical drives
+- [ ] **3.5 Given a scenario, install and configure motherboards, central processing units (CPUs), and add-on cards.**
+  - [ ] Motherboard form factors (ATX, microATX, ITX) & Connector types (PCI, PCIe, Power, SATA, eSATA, Headers, M.2)
+  - [ ] Motherboard compatibility (CPU sockets: AMD, Intel, Multisocket)
+  - [ ] BIOS/UEFI settings (Boot options, USB permissions, TPM features, Secure Boot, Passwords, Temp/Fan monitoring)
+  - [ ] Virtualization support & Hardware Encryption (TPM, HSM)
+  - [ ] CPU architecture (x86/x64, ARM, Core configurations)
+  - [ ] Expansion cards (Sound, Video, Capture, NIC) & Cooling (Fans, Heat sink, Thermal paste, Liquid)
+- [ ] **3.6 Given a scenario, install the appropriate power supply.**
+  - [ ] Input (110–120 VAC vs. 220–240 VAC), Output (3.3V vs. 5V vs. 12V), 20+4 pin, Redundant, Modular, Wattage, Efficiency
+- [ ] **3.7 Given a scenario, deploy and configure multifunction devices/printers and settings.**
+  - [ ] Setup location, OS drivers (PCL vs. PostScript), Firmware, Device connectivity (USB, Ethernet, Wireless)
+  - [ ] Public/shared devices (Printer share, Print server), Config (Duplex, Orientation, Tray, Quality)
+  - [ ] Security (Authentication, Badging, Audit logs, Secured prints) & Network scan services (Email, SMB, Cloud), ADF/Flatbed
+- [ ] **3.8 Given a scenario, perform appropriate printer maintenance.**
+  - [ ] Laser (Toner, maintenance kit, calibrate, clean)
+  - [ ] Inkjet (Cartridge, printhead, roller, feeder, calibration, clearing jams)
+  - [ ] Thermal (Feed assembly, thermal paper, clean heating element, debris removal)
+  - [ ] Impact (Multipart paper, ribbon, printhead replacement)
+
+## 4.0 Virtualization and Cloud Computing (11%)
+- [ ] **4.1 Explain virtualization concepts.**
+  - [ ] Purpose of VMs (Sandbox, Test development, App virtualization: Legacy software, Cross-platform)
+  - [ ] Requirements (Security, Network, Storage), VDI, Containers, Hypervisors (Type 1 vs. Type 2)
+- [ ] **4.2 Summarize cloud computing concepts.**
+  - [ ] Models (Private, Public, Hybrid, Community, IaaS, SaaS, PaaS)
+  - [ ] Characteristics (Shared vs. Dedicated, Metered, Elasticity, Availability, File sync, Multitenancy)
+
+## 5.0 Hardware and Network Troubleshooting (28%)
+- [ ] **5.1 Given a scenario, troubleshoot motherboards, RAM, CPUs, and power.**
+  - [ ] POST beeps, Proprietary crash screens, Blank screen, No power, Sluggishness, Overheating, Burning smell, Random shutdown, App crashes, Unusual noise, Capacitor swelling, Time drift
+- [ ] **5.2 Given a scenario, troubleshoot drive and RAID issues.**
+  - [ ] LED indicators, Grinding/Clicking noises, Bootable device not found, Data loss/corruption, RAID failure, S.M.A.R.T. failure, Extended read/write times, Low IOPS, Missing drives/arrays, Audible alarms
+- [ ] **5.3 Given a scenario, troubleshoot video, projector, and display issues.**
+  - [ ] Incorrect source, Cabling issues, Burnt-out bulb, Fuzzy image, Burn-in, Dead pixels, Flashing, Incorrect colors, Audio issues, Dim image, Intermittent shutdown, Sizing/Distortion
+- [ ] **5.4 Given a scenario, troubleshoot common mobile device issues.**
+  - [ ] Poor/Swollen battery, Broken screen, Improper charging, Poor connectivity, Liquid damage, Overheating, Digitizer/Calibration issues, Damaged ports, Malware, App installation failures, Stylus failure, Degraded performance
+- [ ] **5.5 Given a scenario, troubleshoot network issues.**
+  - [ ] Intermittent wireless, Slow speeds, Limited connectivity, Jitter, Poor VoIP, Port flapping, High latency, Interference, Authentication failures, Intermittent internet
+- [ ] **5.6 Given a scenario, troubleshoot printer issues.**
+  - [ ] Lines down page, Garbled print, Jams, Faded print, Feed issues, Pending queue / Frozen queue, Speckling, Ghost/Echo images, Grinding noise, Finishing issues (Staple/Hole punch), Incorrect orientation, Tray not recognized, Connectivity

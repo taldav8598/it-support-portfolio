@@ -1,0 +1,118 @@
+# CompTIA A+ Core 2 (220-1202) V15 Study Checklist
+
+## Domain 1.0: Operating Systems (28%)
+- [ ] **1.1 Explain common operating system (OS) types and their purposes.**
+  - [ ] Workstation systems (Windows, Linux, macOS, Chrome OS)
+  - [ ] Mobile OSs (iPadOS, iOS, Android)
+  - [ ] Various filesystem types (NTFS, ReFS, FAT32, ext4, XFS, APFS, exFAT)
+  - [ ] Vendor life-cycle limitations (End-of-life, Update limitations)
+  - [ ] Compatibility concerns between operating systems
+- [ ] **1.2 Given a scenario, perform OS installations and upgrades in a diverse environment.**
+  - [ ] Boot methods (USB, Network, Solid-state/flash, Internet-based, External drive, Partition, Multiboot)
+  - [ ] Types of installations (Clean, Upgrade, Image deployment, Remote network, Zero-touch, Recovery, Repair)
+  - [ ] Partitioning (GPT, MBR) and Drive format
+  - [ ] Upgrade considerations (Backup, Application/driver support, Hardware compatibility, Feature updates)
+- [ ] **1.3 Compare and contrast basic features of Microsoft Windows editions.**
+  - [ ] Windows 10 editions (Home, Pro, Pro for Workstations, Enterprise)
+  - [ ] Windows 11 editions (Home, Pro, Enterprise) and N versions
+  - [ ] Feature differences (Domain vs. workgroup, Desktop styles, RDP, RAM limits, BitLocker, gpedit.msc)
+  - [ ] Upgrade paths and Hardware requirements (TPM, UEFI)
+- [ ] **1.4 Given a scenario, use Microsoft Windows operating system features and tools.**
+  - [ ] Task Manager (Services, Startup, Performance, Processes, Users)
+  - [ ] MMC snap-ins (Event Viewer, Disk Management, Task Scheduler, Device Manager, Certificate Manager, lusrmgr, perfmon, gpedit)
+  - [ ] Additional tools (msinfo32, resmon, msconfig, cleanmgr, dfrgui, regedit)
+- [ ] **1.5 Given a scenario, use the appropriate Microsoft command-line tools.**
+  - [ ] Navigation (`cd`, `dir`)
+  - [ ] Network (`ipconfig`, `ping`, `netstat`, `nslookup`, `net use`, `tracert`, `pathping`)
+  - [ ] Disk & File Management (`chkdsk`, `format`, `diskpart`, `md`, `rmdir`, `robocopy`)
+  - [ ] Informational & OS (`hostname`, `net user`, `winver`, `whoami`, `/?`, `gpupdate`, `gpresult`, `sfc`)
+- [ ] **1.6 Given a scenario, configure Microsoft Windows settings.**
+  - [ ] Control Panel/Settings app items (Internet Options, Devices and Printers, Programs and Features, etc.)
+  - [ ] File Explorer Options (Hidden files, File extensions)
+  - [ ] Power Options (Hibernate, Plans, Sleep, Lid settings, Fast startup, USB selective suspend)
+- [ ] **1.7 Given a scenario, configure Microsoft Windows networking features on a client/desktop.**
+  - [ ] Domain joined vs. workgroup resources (Printers, File servers, Mapped drives)
+  - [ ] Local OS firewall settings and Client network configuration (IP scheme, DNS, Subnet, Gateway, Static vs. Dynamic)
+  - [ ] Network connections (VPN, Wireless, Wired, WWAN) and Proxy/Metered network settings
+- [ ] **1.8 Explain common features and tools of the macOS/desktop operating system.**
+  - [ ] App installation/uninstallation (.dmg, .pkg, .app, App Store)
+  - [ ] System folders (/Applications, /Users, /Library, /System)
+  - [ ] Preferences & Features (Displays, Networks, Time Machine, Mission Control, Keychain, Spotlight, iCloud)
+  - [ ] Built-in utilities (Disk Utility, FileVault, Terminal, Force Quit)
+- [ ] **1.9 Identify common features and tools of the Linux client/desktop operating system.**
+  - [ ] File/Filesystem commands (`ls`, `pwd`, `mv`, `cp`, `rm`, `chmod`, `chown`, `grep`, `find`, `fsck`, `mount`)
+  - [ ] Administrative & Network (`su`, `sudo`, `apt`, `dnf`, `ip`, `ping`, `curl`, `dig`, `traceroute`)
+  - [ ] Informational, Editors & Config (`man`, `cat`, `top`, `ps`, `du`, `df`, `nano`, `/etc/passwd`, `/etc/hosts`, etc.)
+- [ ] **1.10 Given a scenario, install applications according to requirements.**
+  - [ ] System requirements (32-bit vs. 64-bit, Dedicated vs. integrated GPU, VRAM, RAM, CPU, Storage, Compatibility)
+  - [ ] Distribution methods & impact considerations (Device, Network, Operation, Business impact)
+- [ ] **1.11 Given a scenario, install and configure cloud-based productivity tools.**
+  - [ ] Email, Storage sync, Collaboration tools (Spreadsheets, Video, Word processing, IM), Identity sync, Licensing
+
+## Domain 2.0: Security (28%)
+- [ ] **2.1 Summarize various security measures and their purposes.**
+  - [ ] Physical security (Bollards, Vestibule, Badge reader, Surveillance, Alarms, Locks, Guards, Fences)
+  - [ ] Physical access security (Key fobs, Smart cards, Digital keys, Biometrics, Lighting, Magnetometers)
+  - [ ] Logical security (Least privilege, Zero Trust, ACLs, MFA, SAML, SSO, Just-in-time access/PAM, MDM, DLP, IAM)
+- [ ] **2.2 Given a scenario, configure and apply basic Microsoft Windows OS security settings.**
+  - [ ] Defender Antivirus, Firewall (Ports/Apps), User accounts (Local vs. Microsoft, Standard, Admin, Guest, Power user)
+  - [ ] Log-in options (PIN, Fingerprint, Facial recognition, Windows Hello), NTFS vs. share permissions (Inheritance)
+  - [ ] UAC, BitLocker, BitLocker-To-Go, EFS, and Active Directory features
+- [ ] **2.3 Compare and contrast wireless security protocols and authentication methods.**
+  - [ ] Protocols & Encryption (WPA2, WPA3, TKIP, AES)
+  - [ ] Authentication (RADIUS, TACACS+, Kerberos, Multifactor)
+- [ ] **2.4 Summarize types of malware and tools/methods for detection, removal, and prevention.**
+  - [ ] Malware types (Trojan, Rootkit, Virus, Spyware, Ransomware, Keylogger, Cryptominer, Adware, PUP, etc.)
+  - [ ] Detection & Prevention (EDR, MDR, XDR, Antivirus, Email gateway, Software firewalls, Antiphishing training)
+- [ ] **2.5 Compare and contrast common social engineering attacks, threats, and vulnerabilities.**
+  - [ ] Social engineering (Phishing types, Shoulder surfing, Tailgating, Impersonation, Dumpster diving)
+  - [ ] Threats (DoS/DDoS, Evil twin, Zero-day, Spoofing, Brute-force, Insider threat, SQLi, XSS, BEC, Supply chain)
+  - [ ] Vulnerabilities (Non-compliant, Unpatched, Unprotected, EOL, BYOD systems)
+- [ ] **2.6 Given a scenario, implement procedures for basic small office/home office (SOHO) malware removal.**
+  - [ ] 1. Investigate -> 2. Quarantine -> 3. Disable System Restore -> 4. Remediate -> 5. Update anti-malware -> 6. Scan & remove -> 7. Reimage -> 8. Schedule updates -> 9. Re-enable System Restore -> 10. Educate user
+- [ ] **2.7 Given a scenario, apply workstation security options and hardening techniques.**
+  - [ ] Data-at-rest encryption, Password considerations (Length, Complexity, Expiration), BIOS/UEFI passwords
+  - [ ] End-user best practices (Screensaver locks, Password managers), Account management (Lockouts, Perms, Disabled guest)
+- [ ] **2.8 Given a scenario, apply common methods for securing mobile devices.**
+  - [ ] Hardening (Encryption, Screen locks, Profiles), Patch management, Endpoint security, Locator apps, Remote wipes
+- [ ] **2.9 Compare and contrast common data destruction and disposal methods.**
+  - [ ] Physical destruction (Drilling, Shredding, Degaussing, Incineration), Recycling/Repurposing (Wiping, Low-level format)
+  - [ ] Outsourcing (Third-party, Certificate of destruction), Regulatory and environmental requirements
+- [ ] **2.10 Given a scenario, apply security settings on SOHO wireless and wired networks.**
+  - [ ] Router settings (Default passwords, IP/Content filtering, Screened subnet), Wireless (SSID broadcast, Guest access)
+- [ ] **2.11 Given a scenario, configure relevant security settings in a browser.**
+  - [ ] Downloads (Trusted sources, Hashing), Extensions, Password managers, Secure certs, Cache/Browsing data, Secure DNS
+
+## Domain 3.0: Software Troubleshooting (23%)
+- [ ] **3.1 Given a scenario, troubleshoot common Windows OS issues.**
+  - [ ] BSOD, Degraded performance, Boot issues, Frequent shutdowns, Services not starting, App crashes, Low memory
+- [ ] **3.2 Given a scenario, troubleshoot common mobile OS and application issues.**
+  - [ ] Launch/Close/Update/Install failures, Slow response, Battery life, Random reboots, Connectivity (Bluetooth/Wi-Fi/NFC)
+- [ ] **3.3 Given a scenario, troubleshoot common mobile OS and application security issues.**
+  - [ ] Concerns (Unofficial stores, Developer mode, Root/Jailbreak, Malicious apps/Spoofing)
+  - [ ] Symptoms (High traffic, Degraded response, High number of ads, Fake security warnings, Leaked files)
+- [ ] **3.4 Given a scenario, troubleshoot common personal computer (PC) security issues.**
+  - [ ] Symptoms (Network access loss, Desktop/False alerts, Altered files, Pop-ups, Redirects, Certificate warnings)
+
+## Domain 4.0: Operational Procedures (21%)
+- [ ] **4.1 Given a scenario, implement best practices associated with documentation and support systems information management.**
+  - [ ] Ticketing systems (Info, Categories, Severity, Escalation), Asset management (Inventory, CMDB, Tags, Lifecycles)
+  - [ ] Documents (Incident reports, SOPs, Onboarding/Offboarding checklists, SLAs, Knowledge base)
+- [ ] **4.2 Given a scenario, apply change management procedures.**
+  - [ ] Business processes (Rollback, Backup, Sandbox, Staff), Change management (Forms, Purpose, Scope, Types, Approvals)
+- [ ] **4.3 Given a scenario, implement workstation backup and recovery methods.**
+  - [ ] Backup types (Full, Incremental, Differential, Synthetic), Recovery locations, Testing frequency, GFS, 3-2-1 rule
+- [ ] **4.4 Given a scenario, use common safety procedures.**
+  - [ ] ESD straps/mats, Grounding, Component handling, Cable management, Personal safety (Disconnect power, Goggles, Masks)
+- [ ] **4.5 Summarize environmental impacts and local environment controls.**
+  - [ ] MSDS docs, Battery/Toner disposal, Temp/Humidity/Ventilation, Power events (UPS, Surge suppressor)
+- [ ] **4.6 Explain the importance of prohibited content/activity and privacy, licensing, and policy concepts.**
+  - [ ] Incident response (Chain of custody, Preservation), Licensing (DRM, EULA, Open-source), NDA, Regulated data (PII, PCI, HIPAA), AUP
+- [ ] **4.7 Given a scenario, use proper communication techniques and professionalism.**
+  - [ ] Professional appearance, Proper language (No jargon), Active listening, Dealing with difficult customers, Privacy
+- [ ] **4.8 Explain the basics of scripting.**
+  - [ ] File types (.bat, .ps1, .vbs, .sh, .js, .py), Use cases (Automation, Backups, Updates), Risks (Malware introduction)
+- [ ] **4.9 Given a scenario, use remote access technologies.**
+  - [ ] Methods (RDP, VPN, VNC, SSH, RMM, SPICE, WinRM, Third-party tools) and Security considerations
+- [ ] **4.10 Explain basic concepts related to artificial intelligence (AI).**
+  - [ ] Integration, Policies (Appropriate use, Plagiarism), Limitations (Bias, Hallucinations, Accuracy), Private vs. Public data
